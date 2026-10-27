@@ -1005,3 +1005,17 @@ p:last-child { margin-bottom: 0; }
 .footer-credit:focus-visible {
   text-decoration-thickness: 2px;
 }
+
+/* Privacy policy and form notice */
+.privacy-page { max-width: 860px; margin: 0 auto; padding: 96px 24px; }
+.privacy-kicker { font-size: 12px; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 16px; }
+.privacy-page h1 { font-size: clamp(30px, 5vw, 52px); line-height: 1.15; letter-spacing: -.03em; margin-bottom: 24px; }
+.privacy-lead { font-size: 19px; line-height: 1.7; }
+.privacy-date { font-size: 13px; margin-top: 20px; color: #666; }
+.privacy-page section { margin-top: 40px; }
+.privacy-page h2 { font-size: 23px; line-height: 1.35; margin-bottom: 16px; }
+.privacy-page section p { font-size: 16px; line-height: 1.8; margin-top: 14px; }
+.privacy-page a, .privacy-note a { text-decoration: underline; text-underline-offset: 3px; }
+.privacy-note { font-size: 13px; line-height: 1.7; margin: 16px 0; color: #5a5a5a; }
+.footer-base a:hover, .footer-base a:focus-visible { text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 600px) { .privacy-page { padding: 56px 20px; } }
